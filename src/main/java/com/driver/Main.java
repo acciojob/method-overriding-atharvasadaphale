@@ -1,11 +1,11 @@
 package com.driver;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         B obj = new B();
         String res = obj.meth();
     }
-}
+}r
 class A {
         public String meth() {
             return "Invoking method from class A";
